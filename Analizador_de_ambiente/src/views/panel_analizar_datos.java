@@ -1,4 +1,4 @@
-package Interfaces;
+package views;
 
 import javax.swing.JPanel;
 import javax.swing.JFileChooser;
