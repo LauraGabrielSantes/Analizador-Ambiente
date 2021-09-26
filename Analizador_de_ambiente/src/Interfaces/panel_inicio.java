@@ -11,9 +11,9 @@ public class panel_inicio extends JPanel {
 	public panel_inicio() {
 		setLayout(null);
 		
-		JButton btnNewButton = new JButton("Leer datos del ambiente");
+		/*JButton btnNewButton = new JButton("Leer datos del ambiente");
 		btnNewButton.setBounds(22, 118, 195, 60);
-		add(btnNewButton);
+		add(btnNewButton);*/
 		
 		JButton btnNewButton_1 = new JButton("Analizar datos ");
 		btnNewButton_1.setBounds(251, 118, 154, 60);
