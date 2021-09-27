@@ -4,16 +4,20 @@ import javax.swing.JPanel;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
+
+import Interfaces.Lectura_datos_Sensor;
+import test.LecturaSensor;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextArea;
 
 public class panel_analizar_datos extends JPanel {
-
 	/**
 	 * Create the panel.
 	 */
+	JTextArea textArea = new JTextArea();
 	public panel_analizar_datos() {
 		setLayout(null);
 		
@@ -38,10 +42,16 @@ public class panel_analizar_datos extends JPanel {
 		add(lblNewLabel_1);
 		
 		JButton btnNewButton_1 = new JButton("Analizar");
+		btnNewButton_1.addActionListener(
+			new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+			
+				}
+		});
 		btnNewButton_1.setBounds(33, 154, 89, 23);
 		add(btnNewButton_1);
 		
-		JTextArea textArea = new JTextArea();
+
 		textArea.setBounds(201, 80, 239, 209);
 		add(textArea);
 		
@@ -51,4 +61,5 @@ public class panel_analizar_datos extends JPanel {
 		add(btnNewButton_2);
 
 	}
+
 }
