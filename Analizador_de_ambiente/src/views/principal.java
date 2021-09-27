@@ -92,6 +92,7 @@ public class principal {
 		switch (selec) {
 		case analizar:
 			panel = new panel_analizar_datos();
+			System.out.println("Cambio de prueba");
 			break;
 		case inicio:
 			panel = new panel_inicio(this);
