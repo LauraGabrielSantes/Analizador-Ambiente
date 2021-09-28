@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+<class-diagram version="1.2.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="controladores.LecturaSensor" project="Analizador-Ambiente" 
     file="/Analizador-Ambiente/Analizador_de_ambiente/src/controladores/LecturaSensor.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-152" y="351"/>    
+    <position height="171" width="235" x="282" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -14,7 +14,7 @@
   <class id="2" language="java" name="controladores.TensorFlow" project="Analizador-Ambiente" 
     file="/Analizador-Ambiente/Analizador_de_ambiente/src/controladores/TensorFlow.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="158" y="322"/>    
+    <position height="153" width="220" x="557" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -24,7 +24,7 @@
   <enumeration id="3" language="java" name="Modelos.CalidadAmbiente" project="Analizador-Ambiente" 
     file="/Analizador-Ambiente/Analizador_de_ambiente/src/Modelos/CalidadAmbiente.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="275" y="507"/>    
+    <position height="135" width="161" x="616" y="248"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -33,7 +33,7 @@
   </enumeration>  
   <class id="4" language="java" name="Modelos.DatoSensor" project="Analizador-Ambiente" 
     file="/Analizador-Ambiente/Analizador_de_ambiente/src/Modelos/DatoSensor.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="79" y="538"/>    
+    <position height="99" width="189" x="316" y="495"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -43,7 +43,7 @@
   <enumeration id="5" language="java" name="Modelos.tipodesensor" project="Analizador-Ambiente" 
     file="/Analizador-Ambiente/Analizador_de_ambiente/src/Modelos/tipodesensor.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-174" y="551"/>    
+    <position height="-1" width="-1" x="687" y="509"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -53,7 +53,7 @@
   <enumeration id="6" language="java" name="views.Ventanas_frame" project="Analizador-Ambiente" 
     file="/Analizador-Ambiente/Analizador_de_ambiente/src/views/Ventanas_frame.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="408" y="255"/>    
+    <position height="135" width="159" x="62" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -63,7 +63,7 @@
   <interface id="7" language="java" name="Interfaces.Acceso_RED" project="Analizador-Ambiente" 
     file="/Analizador-Ambiente/Analizador_de_ambiente/src/Interfaces/Acceso_RED.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="134" y="102"/>    
+    <position height="-1" width="-1" x="489" y="340"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -73,7 +73,7 @@
   <interface id="8" language="java" name="Interfaces.Lectura_datos_Sensor" project="Analizador-Ambiente" 
     file="/Analizador-Ambiente/Analizador_de_ambiente/src/Interfaces/Lectura_datos_Sensor.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-136" y="132"/>    
+    <position height="207" width="254" x="41" y="248"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -81,34 +81,39 @@
     </display>  
   </interface>  
   <realization id="9">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="7"/>  
-  </realization>  
-  <dependency id="10">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <realization id="11">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="8"/>  
   </realization>  
+  <dependency id="10">    
+    <bendpoint x="325" y="248"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
   <association id="12">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="13" name="sensor"/>      
-      <multiplicity id="14" minimum="0" maximum="1"/>    
+      <attribute id="13" name="sensor">        
+        <position height="0" width="0" x="295" y="-210"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="1">        
+        <position height="0" width="0" x="295" y="-210"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <dependency id="15">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <dependency id="16">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
-  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+  <realization id="16">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
     <operations public="true" package="true" protected="true" private="true" static="true"/>  

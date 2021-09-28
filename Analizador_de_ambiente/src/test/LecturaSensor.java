@@ -59,6 +59,24 @@ public class LecturaSensor implements Lectura_datos_Sensor {
 		}
 		return Salida;
 	}
+
+	@Override
+	public boolean LecturaDatos() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean PausaLectura() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean Finalizar() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
 
 }
