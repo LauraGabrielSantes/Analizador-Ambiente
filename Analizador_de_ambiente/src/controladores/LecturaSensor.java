@@ -1,5 +1,8 @@
 package controladores;
 
+
+
+
 import Interfaces.Lectura_datos_Sensor;
 import Modelos.DatoSensor;
 
@@ -34,6 +37,21 @@ public class LecturaSensor implements Lectura_datos_Sensor {
 	public DatoSensor[] TodosLosDatosGas() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+	@Override
+	public boolean LecturaDatos() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean PausaLectura() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean Finalizar() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }

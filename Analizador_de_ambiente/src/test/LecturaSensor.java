@@ -1,5 +1,6 @@
 package test;
 
+import Exceptions.ExcepcionLectura;
 import Interfaces.Lectura_datos_Sensor;
 import Modelos.DatoSensor;
 import Modelos.tipodesensor;
@@ -61,9 +62,10 @@ public class LecturaSensor implements Lectura_datos_Sensor {
 	}
 
 	@Override
-	public boolean LecturaDatos() {
-		// TODO Auto-generated method stub
-		return false;
+	public boolean LecturaDatos() throws ExcepcionLectura {
+
+		throw new ExcepcionLectura();
+		// false;
 	}
 
 	@Override

@@ -1,5 +1,6 @@
 package Interfaces;
 
+import Exceptions.ExcepcionLectura;
 import Modelos.DatoSensor;
 
 public interface Lectura_datos_Sensor {
@@ -7,8 +8,8 @@ public interface Lectura_datos_Sensor {
 	static boolean FuncionaSensorTemperaturaHumedad = true;
 	static boolean FuncionaSensorPolvo = true;
 	static boolean FuncionaSensorGas = true;
-	abstract public boolean LecturaDatos();
-	abstract public boolean PausaLectura();
+	abstract public boolean LecturaDatos() throws ExcepcionLectura;
+	abstract public boolean PausaLectura()throws ExcepcionLectura;
 	abstract public boolean Finalizar();
 	
 	abstract public DatoSensor[] TodosLosDatos();

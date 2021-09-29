@@ -1,5 +1,6 @@
 package test;
 
+import Exceptions.PaqueteriaNoEncontrada;
 import Interfaces.Acceso_RED;
 import Modelos.CalidadAmbiente;
 
@@ -27,6 +28,12 @@ public class TensorFlow implements Acceso_RED {
 	public CalidadAmbiente ratioRespiratorio() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public void Analizar() throws PaqueteriaNoEncontrada {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

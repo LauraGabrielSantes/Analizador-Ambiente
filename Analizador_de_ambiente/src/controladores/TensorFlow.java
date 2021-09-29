@@ -1,5 +1,6 @@
 package controladores;
 
+import Exceptions.PaqueteriaNoEncontrada;
 import Interfaces.Acceso_RED;
 import Modelos.CalidadAmbiente;
 
@@ -28,6 +29,12 @@ public class TensorFlow implements Acceso_RED {
 	public CalidadAmbiente ratioRespiratorio() {
 
 		return null;
+	}
+	public TensorFlow() {
+		
+	}
+	public void Analizar()throws PaqueteriaNoEncontrada {
+		
 	}
 
 }
