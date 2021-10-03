@@ -6,20 +6,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="Analizador_de_ambiente/jmathplot.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="Analizador_de_ambiente/PanamaHitek_Arduino-3.0.0.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="Analizador_de_ambiente/jmathio.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="PanamaHitek_Arduino-3.0.0.jar"/>
+	<classpathentry kind="lib" path="jmathplot.jar"/>
+	<classpathentry kind="lib" path="jmathio.jar"/>
 	<classpathentry kind="output" path="Analizador_de_ambiente/bin"/>
 </classpath>

@@ -2,15 +2,13 @@ package views;
 
 import javax.swing.JFrame;
 
-import org.math.plot.*;
-
-
 
 public class Graficar extends JFrame {
 
 	/**
 	 * 
 	 */
+	
 	private static final long serialVersionUID = 1L;
 
 
@@ -27,11 +25,11 @@ public class Graficar extends JFrame {
 		  double[] y = {5,4,3};
 		 
 		  // create your PlotPanel (you can use it as a JPanel)
-		  Plot2DPanel plot = new Plot2DPanel();
-		 
+		 // Plot2DPanel plot = new Plot2DPanel();
+		 /*
 		  // add a line plot to the PlotPanel
 		  plot.addLinePlot("my plot", x, y);
-				 
+			*/	 
 			setVisible(true);
 		
 		
