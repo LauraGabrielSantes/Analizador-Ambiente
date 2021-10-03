@@ -1,5 +1,7 @@
 package test;
 
+import javax.swing.JTextArea;
+
 import Exceptions.ExcepcionLectura;
 import Interfaces.Lectura_datos_Sensor;
 import Modelos.DatoSensor;
@@ -15,15 +17,15 @@ public class LecturaSensor implements Lectura_datos_Sensor {
 		if(TodosLosDatos != null)
 			return TodosLosDatos;
 		
-		TodosLosDatos = new DatoSensor[100];
+		TodosLosDatos = new DatoSensor[1000];
 		int i=0;
-		for(; i<33; i++) {
+		for(; i<333; i++) {
 			TodosLosDatos[i] =  new DatoSensor(Math.random()*10, tipodesensor.gas);
 		}
-		for(; i<66; i++) {
+		for(; i<666; i++) {
 			TodosLosDatos[i] =  new DatoSensor(Math.random()*10, tipodesensor.temperatura);
 		}
-		for(; i<100; i++) {
+		for(; i<1000; i++) {
 			TodosLosDatos[i] =  new DatoSensor(Math.random()*10, tipodesensor.polvo);
 		}
 		return TodosLosDatos;
@@ -78,6 +80,25 @@ public class LecturaSensor implements Lectura_datos_Sensor {
 	public boolean Finalizar() {
 		// TODO Auto-generated method stub
 		return false;
+	}
+
+	@Override
+	public String ImprimeDatos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void ControladorDatos(JTextArea a) throws InterruptedException {
+		String texto="";
+		for( DatoSensor b: TodosLosDatos  ) {
+			texto += "sensor de: "+b.sensor+" " +b.Dato+"\n";
+			a.setText(texto);
+			Thread.sleep(2);
+		}
+		
+		
+		
 	}
 	
 

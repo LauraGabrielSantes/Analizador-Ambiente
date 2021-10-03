@@ -3,6 +3,8 @@ package controladores;
 
 
 
+import javax.swing.JTextArea;
+
 import Interfaces.Lectura_datos_Sensor;
 import Modelos.DatoSensor;
 
@@ -52,6 +54,16 @@ public class LecturaSensor implements Lectura_datos_Sensor {
 	public boolean Finalizar() {
 		// TODO Auto-generated method stub
 		return false;
+	}
+	@Override
+	public String ImprimeDatos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public void ControladorDatos(JTextArea a) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
