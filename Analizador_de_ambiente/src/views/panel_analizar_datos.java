@@ -63,7 +63,11 @@ public class panel_analizar_datos extends JPanel {
 		add(textArea);
 		
 		JButton btnNewButton_2 = new JButton("Graficas");
-		btnNewButton_2.setEnabled(false);
+		btnNewButton_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new Graficar();
+			}
+		});
 		btnNewButton_2.setBounds(33, 211, 89, 23);
 		add(btnNewButton_2);
 		
