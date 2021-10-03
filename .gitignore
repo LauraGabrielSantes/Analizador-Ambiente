@@ -2,3 +2,7 @@
 Analizador_de_Ambiente/bin/*
 /Analizador_de_Ambiente/bin/*
 Analizador_de_Ambiente/bin
+.settings/*
+/.settings/
+.metadata/*
+/.metadata/
